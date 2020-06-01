@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "chat-angular-firebase",
+      "public": "dist/chat-angular-firebase",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

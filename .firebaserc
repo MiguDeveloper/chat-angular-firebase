@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "firechat-db5df": {
+      "hosting": {
+        "chat-angular-firebase": [
+          "firechat-db5df"
+        ]
+      }
+    }
+  }
+}
