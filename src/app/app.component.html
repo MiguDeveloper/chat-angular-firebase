@@ -1,9 +1,4 @@
 <app-navbar></app-navbar>
-<div class="container animated fadeIn fast">
+<div class="container main-conyai">
   <router-outlet></router-outlet>
-  <ul>
-    <li class="text" *ngFor="let chat of chats | async">
-      {{chat.mensaje}}
-    </li>
-  </ul>
 </div>
