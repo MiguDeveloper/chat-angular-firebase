@@ -15,6 +15,6 @@ export class ChatComponent implements OnInit {
   }
 
   fn_enviarMensaje(){
-    
+    console.log('Miguel');
   }
 }
