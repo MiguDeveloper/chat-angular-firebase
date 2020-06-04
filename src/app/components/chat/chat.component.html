@@ -3,26 +3,12 @@
   <h1>Chat</h1>
   <hr />
   <div class="app-mensajes" id="app-mensajes">
-    <div class="text-right">
+
+    <div class="text-right" *ngFor="let chat of _chatService.chats">
       <span class="badge badge-primary">Fernando</span>
-      <p>Este es un mensaje</p>
+      <p>{{chat.mensaje}}</p>
     </div>
-    <div>
-      <span class="badge badge-success">Fernando</span>
-      <p>Este es un mensaje</p>
-    </div>
-    <div>
-      <span class="badge badge-success">Fernando</span>
-      <p>Este es un mensaje</p>
-    </div>
-    <div>
-      <span class="badge badge-success">Fernando</span>
-      <p>Este es un mensaje</p>
-    </div>
-    <div>
-      <span class="badge badge-success">Fernando</span>
-      <p>Este es un mensaje</p>
-    </div>
+    
   </div>
   <input
     class="form-control"
